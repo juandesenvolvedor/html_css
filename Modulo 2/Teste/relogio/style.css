@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'retro';
+    src: url(fonts/Perfect\ DOS\ VGA\ 437\ Win.ttf);
+}
+
+html, body{
+    height: 100%;
+}
+
+.box{
+    background-color: #0c033b;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #000000;
+    border-radius: 20px;
+}
+
+@keyframes pan{
+    100% {background-position: 15% 50%;}
+}
+
+@media (width >= 500px) {
+    body{
+        padding: 0;
+    }
+}
+
+body{
+    color: white;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("images/symbol-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#relogio{
+   font-family: 'retro';
+   text-align: center;
+   font-size: 64px;
+}
+
+.box .link_git{
+    text-align: center;
+    /*width: 450px;*/
+    border: 1px solid #000000;
+}
+
+.box .link_git a{
+    color: white;
+    text-decoration: none;    
+}
+

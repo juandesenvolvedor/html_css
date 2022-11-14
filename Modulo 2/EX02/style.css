@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'midnight';
+    src: url(fonts/KGMidnightMemories.ttf);
+}
+
+/*Para descobrir a fonte de um site, ultilizar o plugin font ninja do chrome*/
+/*Para descobrir a fonte de uma imagem ultilizar o whatfontis.com*/
+
+h1{
+    font-family: midnight, cursive;
+    font-size: 38px;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

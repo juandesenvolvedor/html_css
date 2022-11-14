@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color: dodgerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: darkred;
+    background-color: gainsboro;
+}
+
+p{
+    text-align: justify;
+}
